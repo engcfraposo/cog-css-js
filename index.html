@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gama Chat</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/chat.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="center">Gama Chat</h1>
+
+    <div id="chatbox"class="z-depth-1">
+      <div class="message">Mensagem de erro</div>
+      <div class="message">Mensagem de Usuário</div>
+      <div class="message">Mensagem de bot</div>
+    </div>
+
+    <div class="progress">
+      <div id="loading"></div>
+    </div>
+
+    <form id="chatForm">
+      <input
+        type="text"
+        name="messageInput"
+        id="messageInput"
+        placeholder="Digite sua mensagem aqui..."
+      >
+      <a class="btn-floating btn-large waves-effect waves-light green"><i class="material-icons">send</i></a>
+    </form>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

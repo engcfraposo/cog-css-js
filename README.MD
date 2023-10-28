@@ -1,4 +1,4 @@
-# Tutorial:Criação da estrutula de Layout de um Chat
+# Tutorial:Criação da estrutura de Layout de um Chat
 
 Neste tutorial, vou mostrar a você como criar uma página HTML simples para criar um layout de um chat. O código HTML que você forneceu é uma estrutura de exemplo que pode ser usada como ponto de partida.
 
@@ -82,10 +82,10 @@ Crie um formulário com o ID "chatForm" que inclui um campo de entrada de texto 
 
 ```html
 <form id="chatForm">
-    <input type="text" name="messageInput" id="messageInput" placeholder="Digite sua mensagem...">
-    <button type="submit" class="btn-floating btn-large waves-effect waves-light green">
-        <i class="material-icons">send</i>
-    </button>
+  <input type="text" name="messageInput" id="messageInput" placeholder="Digite sua mensagem...">
+  <button type="submit" class="btn-floating btn-large waves-effect waves-light green">
+      <i class="material-icons">send</i>
+  </button>
 </form>
 ```
 
